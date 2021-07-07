@@ -6,7 +6,7 @@ var fund = 432;
 //--------------------------------------------------------------
 
 var l1;
-var fund1 = 432*0.25;
+var fund1 = fund*0.25;
 var rate1 = rate;
 var bpDArray2;
 var nInstruments2;
@@ -37,7 +37,7 @@ function initRampDelays1(){
 	bpDArray2 = [];
 	nInstruments2 = 32;
 
-	// del1ay the l1fo
+	// delay the lfo
 	var dIn = new MyGain(1);
 	var d1 = new MyDelay(qNoteSeconds*1.5, 0, 1);
 	var d2 = new MyDelay(qNoteSeconds*1.5, 0, 1);
@@ -130,7 +130,7 @@ function playRampDelays1(startTime, now, duration, rate){
 	// START
 	l1.startAtTime(startTime+now);
 
-	// CHORD PROGRESSION l1OOP
+	// CHORD PROGRESSION lOOP
 	var m = 0;
 	var chordIdx;
 	var t;
