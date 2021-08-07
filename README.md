@@ -1,2 +1,3 @@
 # lotus_ampersand
-generative music with Web Audio API
+
+https://pparocza.github.io/lotus_ampersand/
